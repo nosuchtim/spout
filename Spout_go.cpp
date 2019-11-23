@@ -1,5 +1,5 @@
 #include "Spout_go.h"
-#include "../Spout2/SpoutSDK/Source/SpoutSender.h"
+#include "/Users/tjt/Documents/github/Spout2/SpoutSDK/Source/SpoutSender.h"
 #include <stdlib.h>
 
 extern "C" {
