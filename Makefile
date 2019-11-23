@@ -4,7 +4,7 @@ COPYOBJ = SpoutCopy.o
 
 CC = g++
 
-SPOUT2 = ../../../github.com/leadedge/Spout2
+SPOUT2 = ../Spout2
 SPOUT2SRC = $(SPOUT2)/SpoutSDK/Source
 
 %.o : $(SPOUT2SRC)/%.cpp
@@ -13,10 +13,10 @@ SPOUT2SRC = $(SPOUT2)/SpoutSDK/Source
 default: libspout.a
 
 clean:
-	-rm *.o *.a
+	-rm -f *.o *.a
 
 libspout.a: $(OBJ) $(COPYOBJ)
-	-rm libspout.a
+	-rm -f libspout.a
 	ar q libspout.a $(OBJ) $(COPYOBJ)
 
 

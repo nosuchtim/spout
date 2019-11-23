@@ -3,8 +3,8 @@ package spout
 // #include <stdlib.h>
 // #include <stdbool.h>
 // #include <spout_go.h>
-// #cgo CFLAGS: -I/users/tjt/documents/github/gopath/src/github.com/nosuchtim/spout
-// #cgo LDFLAGS: /users/tjt/documents/github/gopath/src/github.com/nosuchtim/spout/libspout.a
+// #cgo CFLAGS: -I/users/tjt/documents/github/spout
+// #cgo LDFLAGS: /users/tjt/documents/github/spout/libspout.a
 // #cgo LDFLAGS: -lstdc++
 // #cgo LDFLAGS: -lopengl32
 // #cgo LDFLAGS: -ldxgi
